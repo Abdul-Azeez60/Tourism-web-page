@@ -1,0 +1,597 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 245);
+    margin: 0;
+}
+.y ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: whitesmoke;
+}
+
+.y li {
+    float: left;
+}
+.y{
+    z-index: 1  ;
+}
+
+.y li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.y li a:hover{
+    color:  rgb(51, 109, 213);
+}
+input{
+    margin: 16px;
+    border-radius: 10px;
+}
+.tours{
+    font-size: 30px;
+    font-family: 'great vibes',cursive;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 60px;
+}
+.y .all{
+    float: right;
+}
+.y{
+    position: sticky;
+    top: 0;
+}
+.picture{
+    background-image: url(img2.jpg);
+    height: 600px;
+}
+.love{
+    position: relative;
+    top: 200px;
+    font-size: 60px;
+    font-family: Gabriola;
+    padding-left: 70px;
+}
+.at{
+    position: relative;
+    top: 170px;
+    padding-left: 70px;
+}
+.div{
+    background-color: rgb(51, 109, 213);
+    padding: 16px;
+    width: 200px;
+    position: relative;
+    top: 190px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.div:hover{
+    background-color: white;
+    border: 1px solid  rgb(51, 109, 213);
+    transition: 1s;
+    opacity: 2;
+    color:  rgb(51, 109, 213);
+}
+.find{
+    background-color:  rgb(51, 109, 213);
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.book{
+    background-color: rgb(51, 109, 213);
+    width: 400px;
+    border-radius: 30px;
+    padding: 16px;
+}
+.td{
+    padding-left: 80px;
+}
+.bla{
+   border-radius: 20px;
+}
+.rite{
+    padding-left: 80px;
+}
+.ten{
+    border: 1px solid green;
+}
+.about{
+    font-size: 34px;
+    font-family: segoe script;
+    color:  rgb(51, 109, 213);
+}
+.pool{
+    color: rgb(140, 140, 140);
+}
+.featured{
+    font-family: 'great vibes',cursive;
+    color: rgb(51, 109, 213);
+    text-align: center;
+    font-size: 30px;
+}
+.man{
+    text-align: center;
+    font-size: 40px;
+}
+.plan{
+    font-weight: bold;
+    font-size: 40px;
+}
+div.uk{
+    margin: 5px;
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.918);
+    width: 320px;
+    background-color: white;
+}
+/* div.uk:hover{
+    border: 1px solid blue;
+} */
+div.uk img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    transition: 1s;
+}
+.cool:hover{
+    width: 330px;
+    
+}
+.swim{
+    padding-left: 14px;
+}
+.Explore{
+    color: rgb(51, 109, 213);
+    position: relative;
+    left: 140px;
+}
+.amount{
+    color: rgb(51, 109, 213);
+    font-size: 20px;
+}
+.star{
+    color: orange;
+    padding-left: 14px;
+}
+.bold{
+    padding-left: 14px;
+    font-size: 20px;
+}
+.fifth{
+    padding-left: 14px;
+}
+.nah{
+    padding-left: 14px;
+}
+.prob{
+    color: black;
+}
+.uk{
+    float: left;
+}
+.color{
+    background-image: url(map.png);
+    background-color: rgb(14,34,68,1);
+    color: white;
+    padding: 140px 100px 140px 100px;
+}
+.stat{
+    color:  rgb(51, 109, 213);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.lol{
+    padding: 20px;
+    padding-left: 150px;
+    font-weight: bolder;
+}
+.years{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.our{
+    text-align: center;
+    color:  rgb(51, 109, 213);
+    font-family: segoe script;
+}
+.amaze{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+.ray{
+    background-color:  #f2f5f7;
+    width: 280px;
+    color: black;
+    height: 400px;
+    margin-left: 125px;
+    float: left;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+.bg{
+    background-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+    width: 70px;
+    position: relative;
+    left: 90px;
+}
+.sle{
+    padding: 10px;
+    padding-bottom: 70px;
+    color: rgb(140, 140, 140);
+}
+.wild{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ray:hover{
+    background-color: white;
+}
+.faci{
+    font-family: segoe script;
+    color:  rgb(51, 109, 213);
+    font-size: 40px;
+    line-height: 5px;
+}
+.why{
+    font-size: 60px;
+    line-height: 5px;
+}
+.prof{
+    font-size: 40px;
+    /* padding-left: 100px; */
+}
+.zeba{
+    border-radius: 13px;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 70px;
+}
+.Blogs{
+    color:  rgb(51, 109, 213);
+    font-size: 40px;
+    text-align: center;
+    font-family: segoe script;
+}
+.Learn{
+    font-size: 60px;
+    text-align: center;
+}
+#div{
+    background-color: azure;
+}
+#travel{
+    margin: 5px;
+    float: left;
+    border: 1px solid ghostwhite;
+    width: 320px;
+    background-color: whitesmoke;
+    margin-left: 80px;
+}
+#travel img{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+.most:hover{
+    color:  rgb(51, 109, 213);
+}
+/* .hate:hover{
+    width: 330px;
+} */
+.most{
+    font-size: 20px;
+    padding: 10px;
+}
+.more{
+    background-color:  rgb(51, 109, 213);
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+}
+.more:hover{
+    background-color: white;
+    border: 1px solid  rgb(51, 109, 213);
+    color:  rgb(51, 109, 213);
+    opacity: 1;
+}
+a:hover{
+    color:  rgb(51, 109, 213);
+}
+.crawl{
+    border-radius: 13px;
+    padding-bottom: 70px;
+}
+.mistake{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.in{
+    padding-left: 90px;
+}
+.pass{
+    background-color:  rgb(51, 109, 213);
+    width: 180px;
+    /* padding: 14px; */
+    position: relative;
+    right: 40px;
+    top: 33px;
+    bottom: 34px;
+    border-radius: 0 25px 25px 0;
+    transition: 1s;
+    /* padding-bottom: 7px; */
+    padding: 17px;
+}
+.pass:hover{
+    transition: 1s;
+    opacity: 1;
+    background-color: white;
+    color:  rgb(51, 109, 213);
+    border: 1px solid  rgb(51, 109, 213);
+}
+.going{
+    position: relative;
+    top: 33px;
+    /* padding: 8px 3px 13px 14px; */
+    width: 400px;
+    border: 1px solid #eee;
+    padding: 17px;
+    border-radius: 25px;
+}
+.promo{
+    font-size: 40px;
+}
+.ohh{
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 3px;
+}
+.ohh:focus{
+    background-color: #eee;
+}
+#valid{
+    background-color:  rgb(14, 34, 68); 
+    padding: 100px 0 100px 0;
+}
+.policy{
+    background-color:  rgb(51, 109, 213);
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 1s;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+.policy:hover{
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(51, 109, 213);
+    color:  rgb(51, 109, 213);
+    opacity: 1;
+}
+.con{
+    padding-left: 150px;
+    color: rgb(140, 140, 140);
+}
+.con:hover{
+    color: white;
+}
+.cat{
+    text-align: center;
+    color: white;
+}
+.gbm{
+    padding-left: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="all"] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="tours"] {
+      width: 100%;
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="non"] {
+      width: 200px;
+      margin-left: 200px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="y"] {
+      z-index: 1;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="picture"] {
+      width: 500px;
+      background-size: cover;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="love"] {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="flex"] {
+       flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="at"] {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="explore"] {
+      width: 100%;
+    }
+  }
+  .flex{ 
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 20px;
+}
+.now{
+    padding: 10px;
+    border-radius: 15px;
+}
+.thee{
+    background-color: #f2f5f7;
+    border: none;
+}
+.noot{
+    display: flex;
+}
+.span{
+    font-size: 40px;
+}
+.find:hover{
+    background-color: white;
+    color:  rgb(51, 109, 213);
+    border: 2px solid  rgb(51, 109, 213);
+    transition: 1s;
+    opacity: 1;
+}
+a:hover{
+    color: black;
+}
+.book:hover{
+    background-color: #fff;
+    border: 1px solid black;
+    transition: 0.6s;
+    opacity: 2;
+}
+.non{
+    padding: 10px;
+    border-radius: 20px;
+    border-right: 40px solid cornflowerblue;
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+.non:focus{
+    background-color: #eee;
+}
+.is{
+    padding-top: 10px;
+}
+
+.dew{
+    padding-left: 7px;
+}
+.temt{
+    padding: 10px;
+}
+.loc{
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 40%;
+    width: 60px;
+    margin-left: 120px;
+    padding: 10px;
+
+}
+.to{
+    padding-top: 40px;
+}
+.tired{
+    padding-top: 12px;
+}
+#slim:hover{
+    background-color: cornflowerblue;
+}
+#fat:hover{
+    background-color: cornflowerblue;
+}
+#pat{
+    color:  rgb(51, 109, 213); 
+}
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .content  a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .content a:hover {
+    color: cornflowerblue;
+}
+#cut:hover .content {
+    display: block;
+}
+#call:hover .content {
+    display: block;
+    padding-top: 20px;
+}
+.hiss{
+   position: relative;
+   top: 310px;
+}
+.tial{
+    position: relative;
+    top: 310px;
+    right: -1200px;
+}
+
+  
+
